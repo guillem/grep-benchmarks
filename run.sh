@@ -13,12 +13,14 @@ javac GrepC.java
 java GrepC $1 $2
 rm -f grepc.class
 cd ..
+echo
 
 # Go is different :P
-echo go/grepc.go
+echo go/GrepC.go
 cd go
-go build -o grepc.exe grepc.go
-./grepc.exe $1 $2
-rm -f grepc.exe
+go build -o GrepC.exe GrepC.go
+./GrepC.exe $1 $2
+rm -f GrepC.exe
 cd ..
+echo
 
