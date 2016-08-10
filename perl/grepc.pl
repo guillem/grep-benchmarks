@@ -6,7 +6,7 @@ $t0 = time;
 $counter = 0;
 open(F, '<', $ARGV[1]);
 while ($line = <F>) {
-	if ($line=~/$ARGV[0]/) {
+	if (index($line, $ARGV[0]) != -1) {
 		$counter++
 	}
 }
