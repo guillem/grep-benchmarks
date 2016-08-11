@@ -24,3 +24,12 @@ rm -f GrepC.exe
 cd ..
 echo
 
+# C++ is different :P
+echo c++/GrepC.cpp
+cd c++
+g++ -std=c++11 -o GrepC.exe GrepC.cpp 
+./GrepC.exe $1 $2
+rm -f GrepC.exe
+cd ..
+echo
+
