@@ -33,3 +33,12 @@ rm -f GrepC.exe
 cd ..
 echo
 
+# Rust is different :P
+echo rust/GrepC.rs
+cd rust
+rustc -O -o GrepC.exe GrepC.rs
+./GrepC.exe $1 $2
+rm -f GrepC.exe
+cd ..
+echo
+
