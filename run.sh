@@ -51,3 +51,12 @@ rm -f GrepC.exe
 cd ..
 echo
 
+# C# is different :P
+echo "c#/GrepC.c"
+cd "c#"
+mcs GrepC.cs 
+mono GrepC.exe $1 $2
+rm -f GrepC.exe
+cd ..
+echo
+
