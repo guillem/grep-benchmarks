@@ -46,3 +46,5 @@ c++/GrepC.cpp
 
 Suggestions to improve the programs are welcome, and you're free to fork this (and make pull requests, etc.) anyway, but to keep the spirit of the benchmark I will only accept reasonable improvements: use pure languages with standard libraries (i.e. an assembler module makes no sense) and keep the programs simple and readable. Of course adding new languages would be great.
 
+Disclaimer: I developed and tested this in OS X. I've been told that results differ in GNU/Linux (which does make sense). YMMV.
+
